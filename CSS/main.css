@@ -1,0 +1,39 @@
+@import "./banner.css";
+@import "./nav.css";
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+h1 {
+    padding: 8px;
+    background: red;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 64px;
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+main {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

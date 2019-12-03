@@ -1,0 +1,22 @@
+/* Banner */
+#banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('https://i.imgur.com/NttUR5e.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-blend-mode: overlay;
+    color: white;*/
+}
+
+#banner h3 {
+    /*background: #232383;*/
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 48px;
+    color: white;
+}

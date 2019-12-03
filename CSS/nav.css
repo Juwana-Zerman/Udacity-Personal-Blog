@@ -1,0 +1,41 @@
+/* Navigation */
+nav {
+    height: 72px;
+    background: #225;
+    width: 1300px;
+    margin: 0 auto;
+    position: fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    z-index: 100;
+    top: 0;
+}
+
+nav a {
+    padding: 0 32px;
+    color: #eee;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #7435f1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.active {
+    color: #ac5757;
+}
+
