@@ -1,24 +1,32 @@
 .grid-container {
     display: grid;
     grid-gap: 40px 90px;
-    grid-template-columns: auto auto;
-    padding: 15px;
-
+    grid-template-columns: auto auto auto;
+    padding: 4px;
     width: 300px;
 
 }
 
-/* .card-image {
-    width: 275px;
-    height: 275px;
-} */
+.card-image img {
+    width: 300px;
+    height: 300px;
+}
 
 .grid-card {
     padding: 30px;
     width: 300px;
-    height: 500px;
+    height: 675px;
     text-align: center;
     border: 5px solid #5f5f5f;
     border-radius: 5px;
     background-color: #74a1c5;
+}
+
+.btn-readmore {
+    background: #dbe1e6;
+    border: 2px solid #222255;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+
 }
