@@ -4,7 +4,7 @@
     grid-template-columns: auto auto auto;
     padding-bottom: 40px;
     width: 300px;
-
+    margin-bottom: 75px;
 }
 
 .card-image img {
@@ -12,7 +12,7 @@
     height: 300px;
 }
 
-.grid-card {
+.card {
     padding: 30px;
     width: 300px;
     height: 675px;
@@ -20,13 +20,15 @@
     border: 5px solid #5f5f5f;
     border-radius: 5px;
     background-color: #74a1c5;
+    text-decoration: none;
 }
 
-.btn-readmore {
-    background: #dbe1e6;
-    border: 2px solid #222255;
+.btn-viewmore {
+    background: #222255;
+    border: 2px solid #191942;
     border-radius: 4px;
     padding: 10px;
     text-align: center;
-
+    font-weight: bold;
+    color: white;
 }

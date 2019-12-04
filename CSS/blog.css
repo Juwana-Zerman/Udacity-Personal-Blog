@@ -1,0 +1,17 @@
+.quote {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 400px);
+    grid-gap: 20px;
+}
+
+.grid {
+    background-color: #cacaf7;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 5px 10px #606097;
+}

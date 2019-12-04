@@ -2,6 +2,7 @@
 @import "./nav.css";
 @import "./card.css";
 @import "./footer.css";
+@import "./blog.css";
 
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
@@ -28,6 +29,7 @@ p {
 
 main {
     margin: 0 auto;
+    margin-top: 75px;
 }
 
 a {
