@@ -1,15 +1,17 @@
 @import "./banner.css";
 @import "./nav.css";
 @import "./card.css";
+@import "./footer.css";
 
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto Mono', monospace;*/
 
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     width: 1300px;
+    height: 100%;
 }
 
 h1 {
