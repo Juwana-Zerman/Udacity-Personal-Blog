@@ -1,0 +1,48 @@
+/* @media (min-width: 300px) and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+    nav {
+        font-size: 12px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        /*margin: 0 auto;*/
+    /* }
+    nav ul {
+       font-size: 12px;
+       padding: 0;
+       text-align: center;
+       margin: 0;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+    nav li {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #logo-img {
+        max-width: 25%;
+        max-height: 25%;
+    }
+    #hamburger-nav {
+        font-size: 12px;
+    }
+    #banner h3 {
+        font-size: 18px;
+    }
+    #banner {
+        width: 100%;
+    }
+} */
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+
+
+@media (min-width: 769px)

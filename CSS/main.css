@@ -3,6 +3,7 @@
 @import "./card.css";
 @import "./footer.css";
 @import "./blog.css";
+@import "./mediascreen.css";
 
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
@@ -11,7 +12,7 @@ font-family: 'Roboto Mono', monospace;*/
 html, body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    width: 1300px;
+    width: 100%;
     height: 100%;
 }
 
@@ -28,8 +29,9 @@ p {
 }
 
 main {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 75px;
+    padding-left: 40px;
 }
 
 a {
@@ -41,3 +43,6 @@ a:hover {
     text-decoration: underline;
 }
 
+.caption {
+    padding-left: 50px;
+}

@@ -4,31 +4,11 @@ footer {
     color: white;
     height: 100px;
     margin-top: 20px;
-
     text-align: center;
+    width: 100%;
 }
 
 footer p {
     padding-top: 40px;
     margin-bottom: 0;
 }
-/* #social-media-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    align-content: center;
-    padding: 35px;
-    height: 55px;
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-footer h3, p {
-    text-align: center; */
