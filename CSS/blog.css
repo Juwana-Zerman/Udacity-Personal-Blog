@@ -7,7 +7,7 @@
     display: grid;
     grid-template-rows: repeat(3, 400px);
     grid-gap: 20px;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .grid {
@@ -15,4 +15,37 @@
     border-radius: 5px;
     padding: 30px;
     box-shadow: 5px 10px #606097;
+}
+
+.bio {
+    display: inline-flex;
+    justify-content: safe;
+    padding: 60px 30px 20px;
+}
+
+.pic {
+    border-radius: 100%;
+    width: 350px;
+}
+
+.author-bio {
+    padding-left: 30px;
+}
+
+.social-icons {
+    color: white;
+    background: #225;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.social-icons li, i {
+    color: white;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.social-icons i {
+    padding: 10px;
 }
