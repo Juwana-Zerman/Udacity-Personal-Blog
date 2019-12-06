@@ -1,7 +1,7 @@
-body, html {
+/* body, html {
     width: 100%;
     margin: 0 auto;
-}
+} */
 
 .main {
     padding-left: 0;
@@ -52,17 +52,12 @@ body, html {
     width: 325px;
 }
 
-
-/* .author-bio {
-    padding-left: 20px;
-} */
-
 .bio-about {
     display: block;
     width: 85%;
     text-align: justify;
-    margin-left: 60px;
-    padding: 40px 0;
+    margin-left: 80px;
+    padding: 40px 20px;
 }
 
 .social-icons {
@@ -85,31 +80,48 @@ body, html {
     padding: 10px;
 }
 
-@media (min-width: 300px) and (max-width: 480px) {
-    footer {
-      /* position: relative;
-      overflow: hidden; */
-      display: block;
-      height: 100px;
-      margin-top: 20px;
-      text-align: center;
-      width: 100%;
+@media (max-width: 330px) {
+    .article-grid  {
+        margin: 0 5px;
+        padding: 30px 5px;
     }
     .bio {
-        gap: 20px;
-        padding: 30px 15px;
+        gap: 15px;
+        padding: 20px 20px;
         margin-left: 10px;
+        width: 80%;
+    }
+
+    .pic {
+        width: 150px;
+    }
+
+    .bio-about {
+        padding: 20px 15px;
+        margin-left: 15px;
+    }
+    .blog-post {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 331px) and (max-width: 480px) {
+    .bio {
+        gap: 20px;
+        padding: 30px 10px;
+        margin-left: 5px;
         width: 80%;
     }
     .pic {
         width: 200px;
     }
     .bio-about {
-        padding: 20px 10px;
+        padding: 20px 15px;
+        margin-left: 15px;
     }
     .article-grid {
-        padding: 60px 35px;
-        margin-left: 15px;
+        padding: 60px 25px;
+        margin-left: 10px;
         width: 85%;
     }
 
