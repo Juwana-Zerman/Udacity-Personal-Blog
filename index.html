@@ -12,19 +12,19 @@
 <body>
 <header>
 <nav>
+    <div class="index">
     <div id="logo-img">
-        <a href="#">
-            <img src="https://i.imgur.com/2dAMTzH.png" alt="z6 logo">
-        </a>
+        <img src="https://i.imgur.com/2dAMTzH.png" alt="z6 logo">
     </div>
     <div id="hamburger-nav" class="burger-nav">
-    <ul>
+    <ul class="navlist">
         <li><a href="#home">Home</a></li>
         <li><a href="blog.html">About</a></li>
         <li><a href="#blog">Blog</a></li>
         <!-- <i class="fas fa-bars"></i> -->
-    </nav>
     </div>
+    </div>
+</nav>
 </header>
 <div id="banner">
     <h1>Welcome to My Travel Blog</h1>
@@ -36,7 +36,9 @@
 <br>
 <main>
 <h2 id="blog" class="section-heading">Blog</h2>
-    <section class="grid-container">
+    <section>
+        <div class="grid-container">
+        <div class=column>
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/7qsIE1A.jpg" alt="canary island image">
@@ -50,6 +52,8 @@
                 <a href="blog.html"><button class="btn-viewmore">View More</button></a>
             </div>
         </div>
+        </div>
+        <div class="column">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/w0e7IiB.jpg" alt="hawaii image">
@@ -63,6 +67,8 @@
                 <a href="blog.html"><button class="btn-viewmore">View More</button></a>
             </div>
         </div>
+    </div>
+    <div class="column">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/5gDZjSh.jpg" alt="sunset image">
@@ -76,13 +82,14 @@
                 <a href="blog.html"><button class="btn-viewmore">View More</button></a>
             </div>
         </div>
+        </div>
+        </div>
     </section>
-    </main>
+</main>
     <footer>
         <div class="container">
             <p><em><strong>Made with <i class="fa fa-heartbeat"></i> by Juwana Zerman &copy; 2019</em></strong></p>
         </div>
     </footer>
-</div>
 </body>
 </html>

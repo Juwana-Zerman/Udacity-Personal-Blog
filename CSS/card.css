@@ -1,13 +1,41 @@
-.grid-container {
-    display: grid;
+/* Card css */
+
+/* .grid-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin: 35px 35px;
+    /*width: 100%;*/
+
+
+    /* display: grid;
     grid-gap: 40px 90px;
-    grid-template-columns: 1fr 1fr 1fr /*300px 300px 300px*/;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr; /*300px 300px 300px*/
+    /*grid-template-rows: auto;
     padding-bottom: 40px;
     width: 300px;
     margin: 75px 75px;
    align-items: center;
-   justify-items: center;
+   justify-items: center; */
+
+.grid-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 675px;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .card-image img {
@@ -19,14 +47,14 @@
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
-    width: 300px;
-    height: 675px;
+    width: 320px;
+
     text-align: center;
     border: 5px solid #555;
     border-radius: 5px;
     background-color: #7ac;
     text-decoration: none;
-
+    align-content: center;
 }
 
 .btn-viewmore {

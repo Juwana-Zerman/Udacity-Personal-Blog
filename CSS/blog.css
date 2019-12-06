@@ -1,7 +1,4 @@
-/* body, html {
-    width: 100%;
-    margin: 0 auto;
-} */
+/* CSS for blog post page */
 
 .main {
     padding-left: 0;
@@ -80,6 +77,7 @@
     padding: 10px;
 }
 
+/* Media Queries */
 @media (max-width: 330px) {
     .article-grid  {
         margin: 0 5px;
