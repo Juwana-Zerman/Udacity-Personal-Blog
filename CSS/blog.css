@@ -5,6 +5,7 @@ body, html {
 
 .main {
     padding-left: 0;
+    padding-right: 0;
 
 }
 
@@ -18,12 +19,12 @@ body, html {
     /* grid-template-rows: repeat(, 400px); */
     grid-template-columns: minmax(300px, 1fr);
     gap: 50px;
-    padding-top: 60px;
-    padding-left: 30px;
-    margin-left: 50px;
+    padding: 60px 50px;
+    /* padding-left: 100px; */
+    margin-left: 35px;
     width: 85%;
     justify-items: center;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     align-items: center;
 }
 
@@ -35,18 +36,33 @@ body, html {
 }
 
 .bio {
-    display: inline-flex;
-    justify-content: safe;
-    padding: 60px 30px 20px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    padding: 60px 30px;
+    margin-left: 40px;
+    width: 80%;
 }
 
 .pic {
     border-radius: 100%;
-    width: 350px;
+    width: 325px;
 }
 
-.author-bio {
-    padding-left: 30px;
+
+/* .author-bio {
+    padding-left: 20px;
+} */
+
+.bio-about {
+    display: block;
+    width: 85%;
+    text-align: justify;
+    margin-left: 60px;
+    padding: 40px 0;
 }
 
 .social-icons {
@@ -56,6 +72,7 @@ body, html {
     text-align: center;
     padding-bottom: 50px;
     padding-right: 50px;
+    width: 100%;
 }
 
 .social-icons li, i {
@@ -66,4 +83,34 @@ body, html {
 
 .social-icons i {
     padding: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+    footer {
+      /* position: relative;
+      overflow: hidden; */
+      display: block;
+      height: 100px;
+      margin-top: 20px;
+      text-align: center;
+      width: 100%;
+    }
+    .bio {
+        gap: 20px;
+        padding: 30px 15px;
+        margin-left: 10px;
+        width: 80%;
+    }
+    .pic {
+        width: 200px;
+    }
+    .bio-about {
+        padding: 20px 10px;
+    }
+    .article-grid {
+        padding: 60px 35px;
+        margin-left: 15px;
+        width: 85%;
+    }
+
 }
