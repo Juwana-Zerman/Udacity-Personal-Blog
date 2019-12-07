@@ -95,13 +95,17 @@ nav a:hover {
     width: 100%;
     height: 85px;
     padding-bottom: 30px;
+    height: 72px;
+    background: #225;
 }
 
 .arrow {
-    padding-top: 50px;
+    padding: 50px 20px;
     margin-top: 50px;
     font-weight: bold;
     text-decoration: underline;
+    color: white;
+    align-content: flex-end;
 }
 
 nav h2 {
