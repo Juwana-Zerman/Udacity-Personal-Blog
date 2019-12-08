@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/626e109417.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono&display=swap"
         rel="stylesheet">
     <title>Personal Blog Website</title>
@@ -13,9 +12,9 @@
 </head>
 <body>
 <header>
-    <nav class="blog-post">
+    <nav role="navigation" class="blog-post" tabindex="0">
 
-    <a href="index.html" aria-label="back" tabindex="0"><span class="arrow">&#8592;Back</span></a>
+    <a href="index.html" tabindex="-1"><span class="arrow" role="button" aria-label="back" tabindex="0">&#8592;Back</span></a>
 
         <h2 tabindex="0">Blog Posts</h2>
     </nav>
@@ -45,7 +44,7 @@
         mauris est, auctor ut rutrum vel, placerat ac orci. Etiam a ultrices neque, non sodales magna.</p>
         </div>
 
-<div role="contentinfo" aria-label="social links" class="social-icons" tabindex="0">
+<div class="social-icons">
     <p tabindex="0">You can find me on: </p>
     <ul>
         <li>
@@ -65,9 +64,9 @@
         </li>
 </div>
 
-<section class="article-grid">
+<section role="grid" aria-label="blog posts" class="article-grid" tabindex="0">
     <article class="grid one">
-        <h3 id="canaryislands" tabindex="0">Canary Islands</h3><em><p>April 22nd, 2019</p></em>
+        <h3 id="canaryislands" tabindex="0">Canary Islands</h3><em><p tabindex="0">April 22nd, 2019</p></em>
         <p role="article" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus magni
             perspiciatis
             necessitatibus corporis cumque! Aperiam facere at, reprehenderit nisi est minima recusandae ad quod
@@ -81,13 +80,13 @@
         </blockquote>
     </article>
     <article class="grid two">
-        <h3 tabindex="0">Aloha, Hawaii</h3><em><p>June 25, 2019</p></em>
+        <h3 tabindex="0">Aloha, Hawaii</h3><em><p tabindex="0">June 25, 2019</p></em>
         <p role="article" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus magni
             perspiciatis
             necessitatibus corporis cumque! Aperiam facere at, reprehenderit nisi est minima recusandae ad quod
             et quos nam porro assumenda.</p>
         <blockquote cite="https://www.tourmaui.com/hawaiian-quotes-proverbs/">
-            <p class="quote" tabindex="0">The word Aloha is known worldwide. This is because anyone who visits Hawaii becomes charmed by the
+            <p role="article" class="quote" tabindex="0">The word Aloha is known worldwide. This is because anyone who visits Hawaii becomes charmed by the
                 incredible beauty of these isolated islands. Aside from the standard “hello and goodbye” definition of
                 the word there lies a much deeper meaning. Ancient Hawaiians held strong beliefs about the land and
                 because they had no written language they became masters of storytelling and recounting history through
@@ -96,7 +95,7 @@
         </blockquote>
     </article>
     <article class="grid three">
-        <h3 tabindex="0">Watching the Sunset</h3><em><p>September 15th, 2019</p></em>
+        <h3 tabindex="0">Watching the Sunset</h3><em><p tabindex="0">September 15th, 2019</p></em>
         <p role="article" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus magni
             perspiciatis
             necessitatibus corporis cumque! Aperiam facere at, reprehenderit nisi est minima recusandae ad quod
