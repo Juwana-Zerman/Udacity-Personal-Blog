@@ -13,74 +13,75 @@
 <body>
 <header>
 <nav class="navbar">
-    <!-- <div class="index"> -->
-    <div class="left">
+    <div role="img" aria-label="z6 logo" class="left" tabindex="0">
         <img id="logo-img" src="https://i.imgur.com/2dAMTzH.png" alt="z6 logo">
     </div>
-    <div class="right">
+    <div class="right" role="list" aria-label="Menu" tabindex="0">
     <!-- <ul class="navlist"> -->
-        <a href="index.html" class="menu">Home</a>
-        <a href="blog.html" class="menu">About</a>
-        <a href="#blog" class="menu">Blog</a>
+        <a href="index.html" class="menu" aria-label="home" tabindex="0">Home</a>
+        <a href="blog.html" class="menu" aria-label="About" tabindex="0">About</a>
+        <a href="#blog" class="menu" aria-label="Blog" tabindex="0">Blog</a>
      <!-- <a href="#" class="burger-nav"><i class="fas fa-bars"></i></a> -->
      <!-- </ul> -->
     </div>
 </nav>
 </header>
-<div id="banner">
-    <h1>Welcome to My Travel Blog</h1>
+<div id="banner" role="img" aria-label="banner photo" tabindex="0">
+    <h1 tabindex="0">Welcome to My Travel Blog</h1>
 </div>
 <br>
 <div class="caption">
-    <figcaption><em>About Photo: </em>Aerial view of the Maldives</figcaption>
+    <figcaption tabindex="0"><em>About Photo: </em>Aerial view of the Maldives</figcaption>
 </div>
 <br>
 <main>
-<h2 id="blog" class="section-heading">Blog</h2>
+<h2 id="blog" class="section-heading" tabindex="0">Blog</h2>
     <section>
         <div class="grid-container">
         <div class=column>
-        <div class="card">
+        <div class="card" role="card" aria-label="location card" tabindex="0">
             <div class="card-image">
-                <img src="https://i.imgur.com/7qsIE1A.jpg" alt="canary island image">
+                <img src="https://i.imgur.com/7qsIE1A.jpg" alt="canary island image" tabindex="0">
             </div>
 
             <div class="card-description">
-                <h3>Canary Islands</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus magni perspiciatis
+                <h3 tabindex="0">Canary Islands</h3>
+                <p aria-label="island information" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus magni perspiciatis
                     necessitatibus corporis cumque! Aperiam facere at, reprehenderit nisi est minima recusandae ad quod
                     et quos nam porro assumenda.</p>
-                <a href="blog.html"><button class="btn-viewmore">View More</button></a>
+                <a href="blog.html" role="button" tabindex="0"><button class="btn-viewmore">View More</button></a>
             </div>
         </div>
         </div>
         <div class="column">
-        <div class="card">
+        <div class="card" role="card" aria-label="location card" tabindex="0">
             <div class="card-image">
-                <img src="https://i.imgur.com/w0e7IiB.jpg" alt="hawaii image">
+                <img src="https://i.imgur.com/w0e7IiB.jpg" alt="hawaii image" tabindex="0">
             </div>
 
             <div class="card-description">
-                    <h3>Aloha</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic     ducimus magni perspiciatis
+                    <h3 tabindex="0">Aloha</h3>
+                <p aria-label="island information" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic ducimus magni perspiciatis
                     necessitatibus corporis cumque! Aperiam facere at, reprehenderit nisi est minima recusandae ad quod
                     et quos nam porro assumenda.</p>
-                <a href="blog.html"><button class="btn-viewmore">View More</button></a>
+                <a href="blog.html" role="button" tabindex="0"><button class="btn-viewmore">View More</button></a>
             </div>
         </div>
     </div>
     <div class="column">
-        <div class="card">
+        <div class="card" role="card" aria-label="location card" tabindex="0">
             <div class="card-image">
-                <img src="https://i.imgur.com/5gDZjSh.jpg" alt="sunset image">
+                <img src="https://i.imgur.com/5gDZjSh.jpg" alt="sunset image" tabindex="0">
             </div>
 
             <div class="card-description">
-                    <h3>Watching the Sunset</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus magni perspiciatis
+                    <h3 tabindex="0">Watching the Sunset</h3>
+                <p aria-label="island information" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic ducimus magni perspiciatis
                     necessitatibus corporis cumque! Aperiam facere at, reprehenderit nisi est minima recusandae ad quod
                     et quos nam porro assumenda.</p>
-                <a href="blog.html"><button class="btn-viewmore">View More</button></a>
+                <a href="blog.html" role="button" tabindex="0"><button class="btn-viewmore">View More</button></a>
             </div>
         </div>
         </div>
@@ -89,7 +90,7 @@
 </main>
     <footer>
         <div class="container">
-            <p><em><strong>Made with <i class="fa fa-heartbeat"></i> by Juwana Zerman &copy; 2019</em></strong></p>
+            <p role="content info" tabindex="0"><em><strong>Made with <i class="fa fa-heartbeat"></i> by Juwana Zerman &copy; 2019</em></strong></p>
         </div>
     </footer>
 </body>
