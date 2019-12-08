@@ -40,41 +40,10 @@
    align-items: center;
    justify-items: center; */
 
-/* .grid-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-} */
-
-/* .column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 320px;
-    height: 675px;
-    justify-content: space-between;
-    align-content: center;
-} */
-
 .card-image img {
     width: 275px;
     height: 215px;
 }
-
-/* .card {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-    width: 320px;
-    text-align: center;
-    border: 5px solid #555;
-    border-radius: 5px;
-    background-color: #7ac;
-    text-decoration: none;
-    align-content: center;
-} */
 
 .btn-viewmore {
     background: #225;
