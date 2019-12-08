@@ -1,6 +1,6 @@
-#Front End Developer Nanodegree Personal Blog Project
+# H1 Front End Developer Nanodegree Personal Blog Project
 
-###Overview
+# H2 Overview
 
 This is project one of the updated FEND program at Udacity.
 
@@ -9,18 +9,18 @@ This is project one of the updated FEND program at Udacity.
 ![Blog Image](https://i.imgur.com/PWA2Tfm.png "Blog Image")
 
 
-###View
+# H2 View
 
 To view this project live click here: [View Live]()
 
 
 
-###Dependencies:
+# H2 Dependencies:
 
-*HTML
+* HTML
 
-*CSS
+* CSS
 
-*Font Awesome
+* Font Awesome
 
-*Google Fonts
+* Google Fonts
