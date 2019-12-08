@@ -3,12 +3,12 @@
 @import "./card.css";
 @import "./footer.css";
 @import "./blog.css";
-
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto Mono', monospace;*/
 
-html, body {
+html,
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     width: 100%;
@@ -51,36 +51,43 @@ a:hover {
 }
 
 /* Media Queries */
+
 @media (max-width: 330px) {
     .grid-container {
         margin: 0;
         padding: 0;
         width: 90%;
     }
+
     #banner h1 {
         font-size: 35px;
     }
+
     .card {
         width: 275px;
     }
+
     .column {
         padding: 0;
     }
+
     .card-image img {
         width: 250px;
         height: 215px;
     }
+
     footer p {
         font-size: 16px;
     }
 }
+
 @media (min-width: 331px) and (max-width: 480px) {
     .caption {
         padding-left: 25px;
     }
+
     .grid-container {
         margin: 0;
         padding-right: 40px;
-
     }
 }

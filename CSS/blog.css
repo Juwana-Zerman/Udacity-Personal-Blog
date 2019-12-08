@@ -3,7 +3,6 @@
 .main {
     padding-left: 0;
     padding-right: 0;
-
 }
 
 .quote {
@@ -67,7 +66,8 @@
     width: 100%;
 }
 
-.social-icons li, i {
+.social-icons li,
+i {
     color: white;
     display: inline-block;
     padding-bottom: 20px;
@@ -77,13 +77,14 @@
     padding-left: 10px;
 }
 
-
 /* Media Queries */
+
 @media (max-width: 330px) {
-    .article-grid  {
+    .article-grid {
         margin: 0 5px;
         padding: 30px 5px;
     }
+
     .bio {
         gap: 15px;
         padding: 20px 20px;
@@ -99,6 +100,7 @@
         padding: 20px 15px;
         margin-left: 15px;
     }
+
     .blog-post {
         font-size: medium;
     }
@@ -111,17 +113,19 @@
         margin-left: 5px;
         width: 80%;
     }
+
     .pic {
         width: 200px;
     }
+
     .bio-about {
         padding: 20px 15px;
         margin-left: 15px;
     }
+
     .article-grid {
         padding: 60px 25px;
         margin-left: 10px;
         width: 85%;
     }
-
 }
