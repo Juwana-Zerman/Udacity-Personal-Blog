@@ -20,7 +20,7 @@ To view this project live click here: [View Live]()
 
 
 
-## Dependencies:
+## Dependencies
 
 * HTML
 
