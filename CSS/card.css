@@ -1,14 +1,34 @@
 /* Card css */
 
-/* .grid-container {
+.grid-container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 40px;
-    margin: 35px 35px;
-    /*width: 100%;*/
+    align-items: center;
+    padding: 30px 15px 60px;
+    margin: 35px 25px;
+    width: 100%;
+}
 
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 320px;
+    height: 675px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 5px solid #555;
+    border-radius: 5px;
+    background-color: #7ac;
+    text-decoration: none;
+    align-content: center;
+}
+
+.column {
+    padding: 20px 50px;
+}
 
     /* display: grid;
     grid-gap: 40px 90px;
@@ -20,15 +40,15 @@
    align-items: center;
    justify-items: center; */
 
-.grid-container {
+/* .grid-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
+} */
 
-.column {
+/* .column {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -36,26 +56,25 @@
     height: 675px;
     justify-content: space-between;
     align-content: center;
-}
+} */
 
 .card-image img {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 215px;
 }
 
-.card {
+/* .card {
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
     width: 320px;
-
     text-align: center;
     border: 5px solid #555;
     border-radius: 5px;
     background-color: #7ac;
     text-decoration: none;
     align-content: center;
-}
+} */
 
 .btn-viewmore {
     background: #225;
