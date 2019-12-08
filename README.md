@@ -8,7 +8,7 @@ This is project one of the updated FEND program at Udacity.
 
 ## View
 
-To view this project live click here: [View Live]()
+To view this project live click here: [View Live](https://jzerman2018.github.io/Udacity-Personal-Blog/)
 
 ## Dependencies
 
